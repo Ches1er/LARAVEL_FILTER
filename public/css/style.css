@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ededed;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+section{
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+
+.filter{
+    border: 1px #2a9055 solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.filter>form{
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+.filter_unit{
+    margin-bottom: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+.filter_unit:last-child{
+    margin-bottom: 10px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+.director{
+    margin-left: 10px;
+    width: 150px;
+}
+.year{
+    margin-left: 10px;
+    width: 70px;
+}
+.rate{
+    margin-left: 10px;
+    width: 40px;
+}
+.price{
+    width: 50px;
+    margin: 0 5px;
+}
+.error{
+    color:red;
+}
+
+
+
+.films{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+th,td{
+    padding: 5px 15px;
+    text-align: center;
+    border: #2a9055 1px solid;
+}
